@@ -3,23 +3,10 @@ package org.analysistool;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Use Java Collections and Streams to analyze a list of employees based on their salary.
-    Requirements:
-    Create a List of Employees:
-            Define an Employee class with fields: String name, int age, and double salary.
-    Create a list of at least five Employee objects with varying ages and salaries.
-    Operations on the Employee List:
-        Filter and Print: Use Streams to filter and print the names of employees who earn more than a specified salary (e.g., 50,000).
-        Average Salary Calculation: Calculate and print the average salary of employees over 30 years old.
-        Salary Increase: Increase the salary of all employees by 10% by creating a new list with the updated values. Be sure to print the updated list.
-
-         */
 
         //Employees list
         Employee employee1 = new Employee("Abdul Samad", 27, 75000);
